@@ -24,7 +24,14 @@
         "array-callback-return": "error",
         "block-scoped-var": "error",
         "no-console": "warn",
-        "camelcase": "error",
+        "camelcase": [
+            "error",
+            {
+                "ignoreImports": true,
+                "ignoreDestructuring": true,
+                "properties": "always"
+            }
+        ],
         "func-style": ["error", "expression"],
         "spaced-comment": "error"
     }
