@@ -12,6 +12,7 @@
     },
     "plugins": ["@typescript-eslint", "jest", "prettier"],
     "rules": {
+        "import/first": "off",
         "semi": "off",
         "no-extra-semi": "off",
         "indent": "off",
@@ -33,6 +34,8 @@
             }
         ],
         "func-style": ["error", "expression"],
-        "spaced-comment": "error"
+        "spaced-comment": "error",
+        "prefer-template": "error",
+        "comma-dangle": "error"
     }
 }
